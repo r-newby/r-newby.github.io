@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Rebekah Newby_ </title>
+    <link rel="stylesheet" href="https://use.typekit.net/vby0lgn.css">
+    <link rel="stylesheet" type = "text/css" href="css/style.css">
+    
+
+</head>
+
+<body>
+
+
+
+    <article>
+        <header> 
+         <h1>.rebekahnewby__</h1>
+        </header>
+        <section class = "small"> <h7>Hello visitor..
+            I am a software developer based in the DC metro area. Here's a compilation of
+        what I've been up to</h7></section>
+        <section class="large"> 
+            
+            <h1> + Summer 2018 </h1>
+        <img class = "nist" src="imgs/nist-logo.png"/>
+        <h4> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco. </h4>
+            <h1> + Spring 2017 </h1>
+        <img class = "nist" src="imgs/NASA_Worm_logo.svg"/>
+        <h4> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco. </h4>
+            <h1> + Summer 2015 </h1>
+        <img class = "acs" src="imgs/acs-8-logo-svg-vector.svg"/>
+        <h4> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco. </h4>
+    </section>
+        
+        <section class="medium">
+        <ul>
+            <h6>
+        <li>github</li>
+        <li>linkedin</li>
+        <li>linkedin</li>
+        <li>resume (pdf)</li>
+        <li>rebekah.newby(at)gmail(dot)com</li></h6>
+        
+        </ul>
+        </section>
+        
+        
+      </article>
+      
+      </html>
+
+    
+  <!---- <section id="panel">
+        <div class="circle">
+            <div class="noise animated"></div>
+        </div>
+    </section>
+        <section id="panel-1" class="panel-intro">
+            
+            <h2>.rebekahnewby_</h2>
+            
+            <p>I am a software developer based in the DC metro area.
+                Scroll to check out what I'm currently up to!</p>
+        </section>
+        <section id="panel-2" class="panel projects">
+            <h2>ONE</h2>
+        </section>
+        <section id="panel-3" class="panel contact">
+            <h2>TWO</h2>
+        </section> -->
+
+</body>
+
+</html>
