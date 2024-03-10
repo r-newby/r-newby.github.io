@@ -3,10 +3,85 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/6a6158cff8.js" crossorigin="anonymous"></script>
+    <script type="module" src="/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
     <title>r.newby</title>
+    <style>
+    </style>
   </head>
+
+  <div class="body-wrap">
+    <header><a href="index.html"> Rebekah Newby <div id="tagline"> Web & Software Developer </div></a></header>
+    <div class="hero-about">
+      <div id="projects" hidden>
+        <ul class="gallery">
+          <li class="gli" id="project1"></li>
+          <li class="gli" id="project2"></li>
+          <li class="gli" id="project3"></li>
+          <li class="gli" id="project4"></li>
+          <li class="gli" id="project5"></li>
+        </ul>
+
+      </div>
+      <div id="resume" hidden>
+        <embed src="other/NewbyR.pdf#toolbar=0&navpanes=1&scrollbar=0&statusbar=0&messages=0&scrollbar=0"width="100%" height="100%" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+      </div>
+      <div id="contact" hidden>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+          <!-- Replace with your Access Key -->
+          <input type="hidden" name="access_key" value="676a0b8b-b7e6-4ca8-9dfd-40581e182125">
+
+          <!-- Form Inputs. Each input must have a name="" attribute -->
+
+          <input type="text" id="name" name="name" placeholder="Name" required>
+
+          <input type="email" id="email" name="email" placeholder="Email" required>
+          <br>
+          <input type="text" id="subject" name="subject" placeholder="Subject" required>
+          <br>
+          <textarea name="message" id="message" required></textarea>
+
+          <!-- hCaptcha Spam Protection -->
+          <div class="h-captcha" data-captcha="true"></div>
+
+          <button id="submit" type="submit">Submit</button>
+
+        </form>
+        <!-- Required for hCaptcha -->
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+      </div>
+      <div id="featured" hidden>
+      </div>
+      <div id = "nav">
+        <ul>
+          <li><button id="pButton">Work</button></li>
+          <li><button id="rButton">Resume</button></li>
+          <li><button id="cButton">Contact</button></li>
+          <li ><button id="fButton">Featured</button></li>
+        </ul>
+      </div>
+
+      <div class="elsewhere">
+        <a href="www.linkedin.com/in/rebekahnewby"><i class="fa-brands fa-linkedin-in fa-sm"></i></a>
+        <a href="https://github.com/r-newby"><i class="fa-brands fa-github-alt fa-sm"></i></a>
+        <i class="fa-brands fa-medium fa-sm"></i>
+      </div>
+
+      <div id="tag" class="hero-text">
+        <p>Hello, my name is Rebekah. I'm a web and software developer based in the Washington, D.C. Metropolitan Area. Feel free to
+          take a look around. :) </p>
+          <br>
+      </div>
+
+    </div>
+
+  </div>
   <body>
+
 </body>
 </html>
