@@ -54,6 +54,23 @@ document.getElementById("cButton").addEventListener(
     false,
 );
 
+document.getElementById("fButton").addEventListener(
+    "click",
+    () => {
+        if(feat.hidden === true) {
+            feat.hidden = false;
+            tag.hidden = true;
+            res.hidden = true;
+            con.hidden = true;
+            feat.hidden = true;
+        } else if(feat.hidden === false) {
+            feat.hidden = true;
+            tag.hidden = false;
+        }
+    },
+    false,
+);
+
 const slider = document.querySelector('.gallery');
 let isDown = false;
 let startX;
@@ -81,4 +98,3 @@ slider.addEventListener('mousemove', e => {
     const walk = (x - startX) * SCROLL_SPEED;
     slider.scrollLeft = scrollLeft - walk;
 });
-
