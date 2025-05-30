@@ -91,6 +91,20 @@ a {
     border-radius: 25px;
 
 }
+#features {
+    height: 95%;
+    width: 100%;
+    left: 14%;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:  cover;
+    color: white;
+    border-radius: 25px;
+
+}
 #name,#email{
     padding: 1% 10% 1% 1%;
     margin-bottom: 10px;
@@ -166,6 +180,36 @@ button {
     font-style: normal;
     margin-bottom: 0.2em;
 
+}
+#feature1 {
+    background-image: url("imgs/womentech.png");
+    background-size: cover;
+}
+
+#feature2 {
+    background-image: url("imgs/intern.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#feature3 {
+    background-image: url("imgs/bhm.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feature4 {
+    background-image: url("nistipr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#feature5 {
+    background-image: url("nasa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #project1 {
